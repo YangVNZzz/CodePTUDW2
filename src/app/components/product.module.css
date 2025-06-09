@@ -1,0 +1,65 @@
+
+
+.footer
+{
+  background-color: rgb(48, 49, 49);
+  width: auto;
+  height: 200px;
+}
+
+
+.ct1, .ct2, .ct3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Mỗi ô truyện */
+.h {
+  background: #1f1f1f;
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.h:hover {
+  transform: scale(1.05);
+}
+
+/* Hình ảnh truyện */
+.t1 img {
+  border-radius: 8px;
+  width: 197px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Giá tiền */
+.es {
+  font-size: 16px;
+  font-weight: bold;
+  color: #d1bd84;
+  margin-top: 10px;
+}
+
+/* Tên truyện */
+.namef {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.nao {
+  font-size: 14px;
+  color: #d1d0d0;
+  margin-top: 3px;
+}
+
+
+
+  

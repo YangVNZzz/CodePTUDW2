@@ -1,0 +1,39 @@
+
+.header
+{
+  background-color: rgb(206, 208, 209);
+  width: auto px;
+  height: 200px;
+}
+.hd 
+{
+  flex-direction: row;
+  display: flex;
+}
+.home
+{
+  line-height: 200px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+.home2
+{
+  line-height: 200px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+.home3
+{
+  line-height: 200px;
+  margin-left: 50px;
+  font-family: cursive;
+}
+.img img {
+  width: 180px;
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2); 
+  object-fit: cover; 
+  margin-left: 100px;
+  margin-top: 5px;
+}
